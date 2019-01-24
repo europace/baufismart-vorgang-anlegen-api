@@ -1,26 +1,38 @@
 
-BaufiSmart - Vorgang Anlegen Schnittstelle
-==============================================
+# Vorgang Anlegen (BEX) API
+
+API zum automatisierten Anlegen von BaufiSmart Vorgängen.
+
+# Dokumenation
+
+#### Aktuelle Version 13
 
 Diese Schnittstelle wird auch als "Baufismart EXtern" - kurz: "BEX" bezeichnet.
-Sie dient zum automatisierten Anlegen von Vorgängen.
 
 Für neue Projekt wird immer empfohlen, die aktuellste Version zu verwenden.
 Es werden immer die letzten 3 Versionen der Schnittstelle unterstützt.
 
-#### Version 13 
+Die BEX API wird durch die Datei [bex-v13-VorgangAnlegen.wsdl](bex-v13-VorgangAnlegen.wsdl)
+vollständig beschrieben. Die Datei [bex-v13-VorgangAnlegen.xsd](bex-v13-VorgangAnlegen.xsd)
+kann genutzt werden, um mit eigenen Programmen/Werkzeugen
+die Anfragen zu validieren.
 
-Seit 12. Januar 2017
+# Beispiele
 
-#### Version 12
 
-Seit 7. Oktober 2016
+In dem Ordner ''Beispiele'' beschreiben XML-Dateien Anfragen und Antworten
+an den BEX SOAP Service. für eine bessere Lesbarkeit ist
+der SOAP-Envelope und SOAP-Body nicht dargestellt,
+sondern nur der Inhalt
+der [Vorgang.xml](Beispiele/bex-v13-Vorgang.xml) (Anfrage)
+und der [VorgangMetadaten.xml](Beispiele/bex-v13-VorgangMetadaten.xml) (Antwort).
 
-#### Version 10
+## Code-Generierung für Client-Stubs
 
-Seit 10. Juli 2014
+Aus der WSDL-Beschreibung kann automatisch Code generiert werden.
 
-#### Version 9
+#### Beispiel für Java
 
-Seit 12. Dezember 2013
-
+````bash
+wsimport -keep -extension bex-v13-VorgangAnlegen.wsdl
+````
