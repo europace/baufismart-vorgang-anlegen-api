@@ -27,7 +27,7 @@ Schritte:
 1. SoapUI installieren: https://www.soapui.org/
 2. Ein neues SOAP Projekt anlegen
 3. Folgende URL in das WSDL Feld eintragen: `https://www.europace2.de/baufiSmart/soap/bex/v13/vorgangAnlegen?wsdl`
-4. Ein neuen Request anlegen und mit [diesem Beispiel XML](https://github.com/europace/baufismart-vorgang-anlegen-api/blob/master/Beispiele/bex-v13-vorgangAnlegen-SoapUI.xml) befüllen.
+4. Ein neuen Request anlegen und mit [diesem Beispiel XML](https://raw.githubusercontent.com/europace/baufismart-vorgang-anlegen-api/master/Beispiele/bex-v13-vorgangAnlegen-SoapUI.xml) befüllen.
 4. Eigene PartnerID hier eintragen: `<bex:EmpfaengerPartnerId>XXXXXX</bex:EmpfaengerPartnerId>`
 5. Eigenen API Key hier eintragen: `<bex:ApiKey>YYYYYY</bex:ApiKey>`
 6. Request absetzen. Als Antwort sollte unter anderem eine VorgangsID kommen.
