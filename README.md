@@ -10,6 +10,9 @@ vollständig beschrieben. Die Datei [bex-v13-VorgangAnlegen.xsd](https://github.
 kann genutzt werden, um mit eigenen Programmen/Werkzeugen
 die Anfragen zu validieren.
 
+Bitte beachten Sie, daß die SteuerID und die Staatsangehörigkeit nicht über diese Schnittstelle gesetzt werden kann. Die Werte können Sie nachträglich in Baufismart eingeben.
+Wir sind in der Planung einer neuen REST API, bei der diese Felder integriert werden. 
+
 # Beispiele
 
 
