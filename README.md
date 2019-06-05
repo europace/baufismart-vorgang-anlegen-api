@@ -5,8 +5,8 @@
 
 Diese Schnittstelle wird auch als "Baufismart EXtern" - kurz: "BEX" bezeichnet. Es werden immer die letzten 3 Versionen der Schnittstelle unterstützt.
 
-Die BEX API wird durch die Datei [bex-v13-VorgangAnlegen.wsdl](bex-v13-VorgangAnlegen.wsdl)
-vollständig beschrieben. Die Datei [bex-v13-VorgangAnlegen.xsd](bex-v13-VorgangAnlegen.xsd)
+Die BEX API wird durch die Datei [bex-v13-VorgangAnlegen.wsdl](https://github.com/europace/baufismart-vorgang-anlegen-api/blob/master/bex-v13-VorgangAnlegen.wsdl)
+vollständig beschrieben. Die Datei [bex-v13-VorgangAnlegen.xsd](https://github.com/europace/baufismart-vorgang-anlegen-api/blob/master/bex-v13-VorgangAnlegen.xsd)
 kann genutzt werden, um mit eigenen Programmen/Werkzeugen
 die Anfragen zu validieren.
 
