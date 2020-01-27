@@ -17,8 +17,8 @@ In [Beispiele](https://github.com/europace/baufismart-vorgang-anlegen-api/tree/m
 an den BEX SOAP Service. für eine bessere Lesbarkeit ist
 der SOAP-Envelope und SOAP-Body nicht dargestellt,
 sondern nur der Inhalt
-der [Vorgang.xml](https://github.com/europace/baufismart-vorgang-anlegen-api/blob/masterBeispiele/bex-v14-Vorgang.xml) (Anfrage)
-und der [VorgangMetadaten.xml](https://github.com/europace/baufismart-vorgang-anlegen-api/blob/masterBeispiele/bex-v14-VorgangMetadaten.xml) (Antwort).
+der [Vorgang.xml](https://github.com/europace/baufismart-vorgang-anlegen-api/blob/master/Beispiele/bex-v14-Vorgang.xml) (Anfrage)
+und der [VorgangMetadaten.xml](https://github.com/europace/baufismart-vorgang-anlegen-api/blob/master/Beispiele/bex-v14-VorgangMetadaten.xml) (Antwort).
 
 ## Kurzanleitung um ein Vorgang mit SoapUI anzulegen
 Ein Probeaufruf der API ist sehr hilfreich, um schnell einzusteigen. Dafür empfehlen wir SoapUI, was auf Windows, Mac OS und Linux funktioniert.
