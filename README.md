@@ -42,3 +42,7 @@ Aus der WSDL-Beschreibung kann automatisch Code generiert werden.
 ````bash
 wsimport -keep -extension bex-v14-VorgangAnlegen.wsdl
 ````
+
+## Nutzungsbedingungen
+Die APIs werden unter folgenden [Nutzungsbedingungen](https://developer.europace.de/terms/) zur Verfügung gestellt
+
