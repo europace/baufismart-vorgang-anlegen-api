@@ -1,6 +1,12 @@
 
 # Vorgang Anlegen (BEX) API
 
+#### Neubau der Vorgang Anlegen (BEX) API
+Wir sind momentan dabei die Schnittstelle neu zu bauen. Wir werden in Q3 2020 eine neue Version der Schnittstelle zur Verfügung stellen.
+Bei der neuen API wird es sich um eine REST API handeln, die O.Auth 2.0 als Authentifizierung benutzt.
+Bitte kontaktiert uns, wenn ihr darüber nachdenkt die API zeitnah anzuschließen.
+
+
 #### Aktuelle Version 14
 
 Diese Schnittstelle wird auch als "Baufismart EXtern" - kurz: "BEX" bezeichnet. Es werden immer die letzten 3 Versionen der Schnittstelle unterstützt.
@@ -45,4 +51,3 @@ wsimport -keep -extension bex-v14-VorgangAnlegen.wsdl
 
 ## Nutzungsbedingungen
 Die APIs werden unter folgenden [Nutzungsbedingungen](https://developer.europace.de/terms/) zur Verfügung gestellt
-
