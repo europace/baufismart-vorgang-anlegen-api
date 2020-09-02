@@ -6,6 +6,15 @@ Wir sind momentan dabei die Schnittstelle neu zu bauen. Wir werden in Q3 2020 ei
 Bei der neuen API wird es sich um eine REST API handeln, die O.Auth 2.0 als Authentifizierung benutzt.
 Bitte kontaktiert uns über helpdesk@europace2.de, wenn ihr darüber nachdenkt die API zeitnah anzuschließen.
 
+Du findest die Dokumentation der neuen API unter https://github.com/europace/kundenangaben-api 
+Bis jetzt ist dies lediglich die Dokumentation und noch keine API/ kein Mockup oder ähnliches. 
+Was noch wichtig ist:
+Was von den UI Eingaben noc) im API-Modell fehlt:
+·         Zusatzangaben -> Soll direkt nach dem Release umgesetzt werden
+·         Finanzierungswunsch > Kombinationsdarlehen mit ausgesetzter Tilgung: Nur ausgesetzt (berechnet) unterstützt. Nicht der Fall von ausgesetzt (eigenes Angebot) ~> Sehr exotisch, wenig genutzt. Bedeutet, dass der Berater mit eigenen Tools schon den Bausparbaustein berechnet hat und es bei uns erfassen will, anstatt dass unsere MarketEngine den Bausstein berechnet.
+·         Finanzierungswunsch > Bausparvertrag: Parameter nur als absolute Werte, nicht als relative (also % von etwas). ~> Die absoluten Werte beinhalten die gleiche Information, wie der relative Wert. 
+·         Vorhaben Tab -> Auflösen von Vermögen: Information zu künftigen Einnahmen.
+
 
 #### Aktuelle Version 14
 
